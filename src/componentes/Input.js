@@ -33,6 +33,10 @@ class Input extends Component{
     }
 
 
+
+    
+
+
     render(){return<form><input type={"number"}  onChange={this.peso} value={this.state.peso} name='peso' placeholder="En kilos"/>
     <input type={"number"} onChange={this.altura} name="altura" value={this.state.altura} placeholder='EN METROS'/>
     <br/>

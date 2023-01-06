@@ -11,13 +11,13 @@ class Tabla extends Component{
     }
     
 
-    render(){return<div className="cuadro"><h1 className="x"  onClick={this.borrar}  >x</h1>
+    render(){return<div className="espacio"><div className="cuadro"><h1 className="x"  onClick={this.borrar}  >x</h1>
     <p>Altura:{this.props.datos.altura} m</p>
     <p>Peso:{this.props.datos.peso} kg</p>
     <p>Imc:{this.state.imc.toFixed(2)} </p>
     <Img imc={this.state.imc} dato={this.state.imc.toFixed(2)} />
     </div>
-
+    </div>
     }
 }
 
